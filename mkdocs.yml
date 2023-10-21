@@ -33,11 +33,13 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+plugins:
+  - glightbox
 
 repo_url: https://github.com/rainan16/git-cheat-sheet-mkdocs
 
 nav:
-  - Get Started: index.md
+  - Get Started with "Git": index.md
   - Git Commands: 
     - Install/Configure: configuration.md
     - Repository: repository.md

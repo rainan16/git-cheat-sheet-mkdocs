@@ -8,6 +8,8 @@ How to
 
 ```shell
 pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-glightbox
 ```
 
 2. Run this MkDocs documentation

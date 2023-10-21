@@ -4,10 +4,11 @@ hide:
   - toc
 ---
 
+<figure markdown>
+  ![Git Get Started](img/DALLE-Git.png){ width="180" }
+</figure>
 
-## How to look up a specific Command
-
-:bulb:  Use the top right "Search" to find a command or action (e.g. "differences").  
+:bulb:  Use the top right "Search" to find a command or action (e.g. "log" or "differences").
 To show examples use the (1) icon.
 { .annotate }
 

@@ -8,3 +8,5 @@ References
 [https://www.mkdocs.org](https://www.mkdocs.org)  
 [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)  
 [https://git-scm.com/docs/git-help](https://git-scm.com/docs/git-help)  
+
+Image created with DALLE-3, ChatGPT September 25 Version
