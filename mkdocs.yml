@@ -1,0 +1,49 @@
+site_name: Searchable Git Cheat Sheet
+
+theme:
+  name: material
+  icon:
+    logo: material/git
+    annotation: material/chevron-right-circle
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - toc.integrate
+    - toc.follow
+    - navigation.expand
+  palette:
+    scheme: slate
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+repo_url: https://github.com/rainan16/git-cheat-sheet-mkdocs
+
+nav:
+  - Get Started: index.md
+  - Git Commands: 
+    - Install/Configure: configuration.md
+    - Repository: repository.md
+    - Local changes: localchanges.md
+    - Branches & Tags: branches.md
+  - About: about.md
+
+
+  
